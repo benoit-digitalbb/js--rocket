@@ -1,0 +1,17 @@
+body {
+	background-color: grey;
+}
+
+.coolStuff {
+	visibility: hidden;
+	height: 200px;
+	width: 200px;
+	background-color: coral;
+	transition: background-color 2s;
+}
+
+.coolStuff.change {
+	visibility: visible;
+	background-color: cornflowerblue;
+	transition: background-color 2s;
+}
